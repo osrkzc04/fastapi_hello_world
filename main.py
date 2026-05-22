@@ -8,4 +8,4 @@ def inicio():
 
 @app.get("/saludo/{nombre}")
 def saludar(nombre: str):
-    return {"mensaje": f"Hola {nombre}"}
+    return {"mensaje": f"Hola {nombre}, Estás utilizando FastAPI!"}
