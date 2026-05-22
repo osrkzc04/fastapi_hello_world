@@ -1,0 +1,51 @@
+# Entorno virtual
+venv/
+.env/
+
+# Archivos compilados Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Variables de entorno
+.env
+.env.*
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Logs
+*.log
+
+# Archivos temporales
+*.tmp
+*.temp
+
+# SQLite
+*.sqlite3
+
+# Coverage
+.coverage
+htmlcov/
+
+# Distribución
+build/
+dist/
+*.egg-info/
+
+# Archivos de Railway
+.railway/
+
+# Docker
+*.pid
+
+# Jupyter
+.ipynb_checkpoints/
